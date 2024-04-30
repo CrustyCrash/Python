@@ -4,4 +4,4 @@
 print("Enter amount in $")
 dollar = int(input())
 
-print(dollar,"$ = ", dollar * 82, "Rs.")
+print(dollar, "$ = ", dollar * 82, "Rs.")

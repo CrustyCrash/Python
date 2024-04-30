@@ -8,7 +8,7 @@ first_var = int(input())
 print("Enter second num :")
 sec_var = int(input())
 
-#Addition
+#  Addition
 
 print(first_var, " + ", sec_var, " = ", first_var + sec_var)
 
