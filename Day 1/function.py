@@ -1,8 +1,9 @@
-def add(var1, var2):
-    print(var1, " + ", var2, " = ", var1 + var2)
-    print("Square of ", var1, "is:", var1 * var1)
-    print(var1, "^", var2, " = ", (var1 ** var2))
+# def add(var1, var2):
+#     print(var1, " + ", var2, " = ", var1 + var2)
+#     print("Square of ", var1, "is:", var1 * var1)
+#     print(var1, "^", var2, " = ", (var1 ** var2))
 
+from defPackage import *
 
 print("Enter first num :")
 first_var = int(input())
@@ -12,8 +13,8 @@ sec_var = int(input())
 add(first_var, sec_var)
 
 
-def upper(var3):
-    return var3.upper()
+# def upper(var3):
+#     return var3.upper()
 
 
 print("Your input:")
@@ -23,8 +24,8 @@ print("Original string: ", str_var)
 print("Modified string: ", upper(str_var))
 
 
-def sal_calc(sal, appraisal):
-    return round(sal * (1 + (appraisal / 100)), 2)
+# def sal_calc(sal, appraisal):
+#     return round(sal * (1 + (appraisal / 100)), 2)
 
 
 salary = 900
@@ -40,8 +41,8 @@ print("Original Salary:", salary)
 print("Salary after appraisal:", sal_calc(salary, sal_raise))
 
 
-def height(cms):
-    return round(cms * 0.0328, 2)
+# def height(cms):
+#     return round(cms * 0.0328, 2)
 
 
 print("Enter height in cms")
@@ -49,8 +50,8 @@ cm_height = int(input())
 print("Converted height: ", height(cm_height), "Foot")
 
 
-def conversion(usd):
-    return usd * 82
+# def conversion(usd):
+#     return usd * 82
 
 
 print("Enter amount in $")
@@ -58,8 +59,8 @@ dollar = int(input())
 print(dollar, "$ = ", conversion(dollar), "Rs.")
 
 
-def fare_calc(price, disc):
-    return price * (100 - disc) / 100
+# def fare_calc(price, disc):
+#     return price * (100 - disc) / 100
 
 
 print("Enter source")
